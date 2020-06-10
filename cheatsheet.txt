@@ -1,0 +1,34 @@
+Öffnen der Git Bash im Arbeitsverzeichnis (Bash = Bourne again shell - Mensch Maschine Schnittstelle)
+
+Im Explorer das Verzeichnis anwählen, z.B. C:\Users\reisi\LetsGit
+
+Dann Rechtsklick auf das Verzeichnis, 'Git Bash here' anwählen, Git-Bash wird im angewählten Verzeichnis geöffnet
+
+Navigieren in Verzeichnissen ähnlich DOS
+
+ls = liste den Inhalt des Verzeichnisses auf
+
+cd ~ wechsle ins Stammverzeichnis
+cd .. wechsle ins übergeordnete Verzeichnis
+
+clear leert den Arbeitsbereich der Bash (ähnlich cls bei DOS)
+
+exit beendet die Bash
+
+git help
+Listet diverse Commandos für Git auf
+
+git init
+Dieser Befehl erstellt ein Git Repository.
+
+git status
+Gibt Informationen über den Status des Repositorys aus
+
+git add 
+Fügt dem staged area des Repositorys Dateien hinzu 
+(z.B. - git add cheatsheet.txt für einzelne Dateien, oder git add . für alle Dateien im Verzeichnis - nicht zu empfehlen)
+
+git commit -m ""
+Überführt Dateien aus dem staged area ins eigentliche Repository mit Kommentar in Anführungszeichen
+(z.B. git commit -m "Repository erzeugt" beim ersten Anlegen - später mit Angabe von Änderungen z.B. "*.* geändert")
+
