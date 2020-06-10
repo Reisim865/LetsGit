@@ -14,7 +14,27 @@ git merge <branch>
 führt branches zusammen (darauf achten wo in diesem Moment der Zeiger/Head liegt)
 
 git log
-zeigt die commit Historie an
+zeigt die commit Historie an, q beendet log anzeige
+
+zusätzliche Optionen für git log
+git log -p oder git log --patch
+zeigt Unterschied(die patch-Ausgabe) an, der bei commit eingefügt wurde, q beendet log anzeige
+
+git log -<zahl> (Bsp. - git log -2)
+nur die letzten Einträge, entsprechend <zahl>, werden angezeigt, im Beispiel die letzten 2 Einträge, q beendet log anzeige
+
+git log --stat
+zeigt eine kurze Statistik zu den commits an, q beendet log anzeige
+
+git log --pretty
+die commits werden anders formatiert angezeigt (Infos sind einfacher zu erkennen/lokalisieren), q beendet log anzeige
+
+git log --graph
+zeigt den Verlauf des Repositorys/der commits in grafischer Form an, Verzweigungen der branches werden visualisiert,
+q beendet log anzeige
+
+git log --graph --decorate --oneline
+zeigt den Verlauf des Repositorys/der commits in grafischer und übersichtlicher Form an, log wird automatisch beendet
 
 git reset HEAD <datei>
 unstaging der angegebenen Datei wird durchgeführt
