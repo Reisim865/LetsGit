@@ -1,3 +1,5 @@
+Cheatsheet Datei zu Woche 1 HPI git2020 
+
 Öffnen der Git Bash im Arbeitsverzeichnis (Bash = Bourne again shell - Mensch Maschine Schnittstelle)
 
 Im Explorer das Verzeichnis anwählen, z.B. C:\Users\reisi\LetsGit
