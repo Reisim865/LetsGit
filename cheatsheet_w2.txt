@@ -1,2 +1,30 @@
 Cheatsheet Datei zu Woche 2 HPI git2020
 
+git branch <name>
+erstellt quasi einen neuen Fork/Pfad mit Bezug auf den aktuellen Stand/Commit
+Der Zeiger/Head bleibt jedoch auf dem master(branch)
+
+git checkout <branch>
+wechselt den Zeiger/Head auf den angewählten branch
+
+git checkout -b <name>
+erstellt einen neuen branch und wechselt gleichzeitig den Zeiger auf den neu erstellten branch
+
+git merge <branch>
+führt branches zusammen (darauf achten wo in diesem Moment der Zeiger/Head liegt)
+
+git log
+zeigt die commit Historie an
+
+git reset HEAD <datei>
+unstaging der angegebenen Datei wird durchgeführt
+
+git checkout -- <datei>
+Änderungen an einer Datei werden verworfen
+
+git commit --amend
+letzter commit wird verändert
+
+git reset <commit>
+Rückkehr zum angegebenen commit
+
